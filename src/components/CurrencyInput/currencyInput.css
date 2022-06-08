@@ -1,0 +1,41 @@
+.group{
+    background: #335;
+    width: 200px;
+    margin: 50px auto 20px;
+    display: grid;
+    grid-template-columns: 100px 80px;
+    border-radius: 15px;
+    
+
+}
+
+input,select{
+    background: none;
+    border:0;
+    color: #ddd;
+    outline:none;
+
+}
+
+
+input{
+    padding: 15px;
+}
+
+select{
+    padding: 10px;
+    background-color: #335;
+}
+
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type='number'],
+input[type="number"]:hover,
+input[type="number"]:focus {
+    appearance: none;
+    -moz-appearance: textfield;
+}

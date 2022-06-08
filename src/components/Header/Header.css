@@ -1,0 +1,12 @@
+.header{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: #335;
+}
+
+.header li{
+    display: block;
+    margin: 0 15px;
+}
